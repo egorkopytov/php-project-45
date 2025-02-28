@@ -12,6 +12,11 @@
             "name": "egor"
         }
     ],
-    "description": "brain-games",
-    "require": {}
+    "description": "brain-games project",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    }
 }
