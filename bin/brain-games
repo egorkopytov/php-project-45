@@ -1,11 +1,7 @@
 #!/usr/bin/env php
 <?php
-use function src\cli\greetings;
+//use function src\cli\greetings;
 require_once __DIR__ . '/../src/cli.php';
-//echo 'Answer "yes" if the number is even, otherwise answer "no".';
-echo 'Answer yes if the number is even, otherwise answer no.\n';
 
+echo "Welcome to the Brain Games!\n";
 
-// line('Welcome to the Brain Game!');
-// $name = prompt('May I have your name?');
-// line("Hello, %s!", $name);
