@@ -11,19 +11,3 @@ function Greetings(){
         line("Hello, %s!", $name);
 }
 
-
-$rightAnswers = 0;
-
-for ($i = 0; $i < 3; $i++){
-    $number = rand(0,15);
-    $answer = strtolower($answer);
-    $mathSymbols = ["+", "-", "*"];
-    $randomIndex = array_rand($mathSymbols);
-    $randomMathSymbol = $mathSymbols[$randomIndex];
-
-    print_r ("Question: {$number}\n");
-    $answer = prompt("Your answer");
-
-    
-}
-
