@@ -1,0 +1,44 @@
+#!/usr/bin/env php
+<?php
+require __DIR__ . '/../vendor/autoload.php';
+
+use function cli\line;
+use function cli\prompt;
+
+line('Welcome to the Brain Game!');
+$name = prompt('May I have your name?');
+line("Hello, %s!", $name);
+echo "What is the result of the expression?\n";
+
+
+for ($i = 0; $i < 3; $i++) {
+$firstNum = rand(0, 5);
+$secondNum = rand(0, 5);
+$mathSymbols = ["+", "-", "*"];
+
+$randomIndex = array_rand($mathSymbols);
+$randomMathSymbol = $mathSymbols[$randomIndex];
+
+switch ($randomMathSymbol){
+    case '+':
+        $correctAnswer = $firstNum + $secondNum;
+        break;
+    case '-':
+        $correctAnswer = $firstNum - $secondNum;
+        break;
+    case '*':
+        $correctAnswer = $firstNum * $secondNum;
+        break;
+}
+echo "Question: {$firstNum} {$randomMathSymbol} {$secondNum}\n";
+$userAnswer = strtolower(prompt("Your answer"));
+
+if ($userAnswer == $correctAnswer) {
+    echo "Correct!\n";
+} else {
+    echo "'$userAnswer' is wrong answer ;(. Correct answer was '{$correctAnswer}'\n";
+    echo "Let's try again, $name!\n";
+    exit;
+    }
+}
+echo "Congratulations, {$name}!\n";

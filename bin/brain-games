@@ -1,11 +1,11 @@
 #!/usr/bin/env php
 <?php
-//require_once 'src/cli.php'
-require __DIR__ . '/../vendor/autoload.php';
+use function src\cli\greetings;
+require_once __DIR__ . '/../src/cli.php';
+//echo 'Answer "yes" if the number is even, otherwise answer "no".';
+echo 'Answer yes if the number is even, otherwise answer no.\n';
 
-use function cli\line;
-use function cli\prompt;
 
-line('Welcome to the Brain Game!');
-$name = prompt('May I have your name?');
-line("Hello, %s!", $name);
+// line('Welcome to the Brain Game!');
+// $name = prompt('May I have your name?');
+// line("Hello, %s!", $name);

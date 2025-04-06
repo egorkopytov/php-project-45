@@ -1,0 +1,43 @@
+#!/usr/bin/env php
+<?php
+require __DIR__ . '/../vendor/autoload.php';
+// require_once '/Users/egorkopytov/php-project-45/src/Enginge.php';
+use function cli\line;
+use function cli\prompt;
+// use function Enginge\Greetings;
+// print_r (Greetings());
+line('Welcome to the Brain Game!');
+$name = prompt('May I have your name?');
+line("Hello, %s!", $name);
+line ('Find the greatest common divisor of given numbers.');
+ 
+function gcd($firstNum, $secondNum) {
+    while ($secondNum != 0) {
+        $temp = $firstNum % $secondNum;
+        $firstNum = $secondNum;
+        $secondNum = $temp;
+    }
+    return $firstNum;
+}
+
+for ($i = 0; $i < 3; $i++) {
+    $fistNum = rand(1, 10);
+    $secondNum = rand(1, max: 10);
+    $correctAnswer = gcd($fistNum, $secondNum);
+
+    echo "Question: $fistNum $secondNum\n";
+    echo "Your answer: ";
+    $userAnswer = (int)prompt("Your answer");
+
+    if ($userAnswer !== $correctAnswer) {
+        echo "'$userAnswer' is wrong answer ;(. Correct answer was '$correctAnswer'.\n";
+        echo "Let's try again, $name!\n";
+        exit;
+    }
+    echo "Correct!\n";
+}
+
+echo "Congratulations, $name!\n";
+
+
+
