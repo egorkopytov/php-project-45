@@ -1,4 +1,5 @@
 #!/usr/bin/env php
 <?php
-require_once __DIR__ . '/../src/cli.php';
-greetings();
+require_once(__DIR__ . '/../src/cli.php');
+
+greetUser();
