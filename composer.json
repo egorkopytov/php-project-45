@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "files": [
-            "src/cli.php"
+            "src/Сli.php"
         ]
     },
     "require": {
