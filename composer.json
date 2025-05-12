@@ -9,10 +9,7 @@
     "bin/brain-prime"],
     
     "autoload": {
-        "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        },   
-         "files": [
+        "files": [
             "src/cli.php"
         ]
     
