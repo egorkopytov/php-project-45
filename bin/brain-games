@@ -1,5 +1,5 @@
 #!/usr/bin/env php
 <?php
-require_once(__DIR__ . '/../src/cli.php');
+require_once __DIR__ . '/../vendor/autoload.php';
 
 greetUser();
