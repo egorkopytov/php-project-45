@@ -3,5 +3,5 @@ require __DIR__ . '/../vendor/autoload.php';
 
 
 function greetUser() {
-    echo "Welcome to Brain Games!\n";
+    echo "Welcome to the Brain Games!\n";
 }
