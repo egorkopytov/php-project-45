@@ -1,28 +1,33 @@
 {
     "name": "hexlet/code",
-    "description": "brain-games project",
-    "license": "proprietary",
+    "bin": [
+    "bin/brain-games",
+    "bin/brain-even",
+    "bin/brain-calc",
+    "bin/brain-gcd",
+    "bin/brain-progression",
+    "bin/brain-prime"],
+    
+    "autoload": {
+      "files": [
+    "src/Cli.php"
+  ]
+    },
     "authors": [
         {
             "name": "egor"
         }
     ],
-    "bin": [
-        "bin/brain-games"
-    ],
-    "autoload": {
-        "files": [
-            "src/Сli.php"
-        ]
+    "description": "brain-games project",
+    "scripts": {
+        "phpcs": "phpcs" 
     },
+    "license": "proprietary",
     "require": {
         "wp-cli/php-cli-tools": "^0.12.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^12.0",
         "squizlabs/php_codesniffer": "*"
-    },
-    "scripts": {
-        "phpcs": "phpcs"
     }
 }
