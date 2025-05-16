@@ -6,8 +6,8 @@ function greetUser(): void
     echo "May I have your name?\n";
 
     $input = fgets(STDIN);
-    if ($input === false) {
-    } else {
+    $name = 'Guest';
+    if ($input !== false) {
         $name = trim($input);
     }
 
