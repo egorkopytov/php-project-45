@@ -23,9 +23,7 @@ make install
    [Смотреть демо](https://asciinema.org/a/1pOsftMBGdcBwcoFGasHIhDt2)
 
 2. **Calculator** — Игра на решение математических примеров.  
-[![asciicast](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97.svg)](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97)
-3. **GCD** — Игра на нахождение наибольшего общего делителя двух чисел.  
-   [Смотреть демо](https://asciinema.org/a/7r6GSLWfPqeqxUno62XmvzsSh)
+[![asciicast](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97.svg)](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97)   
 
 4. **Progression** — Игра на восстановление арифметической прогрессии.  
    [Смотреть демо](https://asciinema.org/a/D16Uo8oLCXLfc5X8EDf58Xcup)
