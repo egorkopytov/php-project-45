@@ -22,7 +22,7 @@ make install
 1. **Brain Games**  
    [Смотреть демо](https://asciinema.org/a/1pOsftMBGdcBwcoFGasHIhDt2)
 
-2. **Calculator** — Игра на решение математических примеров.  
+2. ## brain-calc
 [![asciicast](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97.svg)](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97)   
 
 4. **Progression** — Игра на восстановление арифметической прогрессии.  
