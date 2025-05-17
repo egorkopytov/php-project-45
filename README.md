@@ -14,14 +14,16 @@ make install
 ## Статус тестов и линтера
 
 [![Actions Status](https://github.com/egorkopytov/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/egorkopytov/php-project-45/actions)
- [![Maintainability](https://api.codeclimate.com/v1/badges/68302a7ad376894169ca/maintainability)](https://codeclimate.com/github/egorkopytov/php-project-45/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/68302a7ad376894169ca/maintainability)](https://codeclimate.com/github/egorkopytov/php-project-45/maintainability)
+[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-dark.svg)](https://sonarcloud.io/summary/new_code?id=egorkopytov_php-project-45)
+
 ## Демо игр
 
 1. **Brain Games**  
    [Смотреть демо](https://asciinema.org/a/1pOsftMBGdcBwcoFGasHIhDt2)
 
 2. **Calculator** — Игра на решение математических примеров.  
-   [Смотреть демо](https://asciinema.org/a/mpGg5bQmsu7Bs2Lpf1LBl7PMR)
+<script id="asciicast-rhBImQcqU6fPc6oREuQSmoL97" src="https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97.js" async></script>
 
 3. **GCD** — Игра на нахождение наибольшего общего делителя двух чисел.  
    [Смотреть демо](https://asciinema.org/a/7r6GSLWfPqeqxUno62XmvzsSh)
