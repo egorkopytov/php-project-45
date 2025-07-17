@@ -1,3 +1,6 @@
+
+
+```md
 # Brain Games
 
 **Brain Games** — это коллекция мини-игр, направленных на развитие внимательности и математических навыков. Игры реализованы на PHP.
@@ -10,7 +13,6 @@
 git clone https://github.com/egorkopytov/php-project-45
 cd php-project-45
 make install
-
 ## Статус тестов и линтера
 
 [![Actions Status](https://github.com/egorkopytov/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/egorkopytov/php-project-45/actions)
