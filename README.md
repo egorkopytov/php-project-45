@@ -1,6 +1,4 @@
 
-
-```md
 # Brain Games
 
 **Brain Games** — это коллекция мини-игр, направленных на развитие внимательности и математических навыков. Игры реализованы на PHP.
@@ -12,12 +10,9 @@
 ```bash
 git clone https://github.com/egorkopytov/php-project-45
 cd php-project-45
-make install```
-## Статус тестов и линтера
+make install
 
-[![Actions Status](https://github.com/egorkopytov/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/egorkopytov/php-project-45/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/68302a7ad376894169ca/maintainability)](https://codeclimate.com/github/egorkopytov/php-project-45/maintainability)
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-dark.svg)](https://sonarcloud.io/summary/new_code?id=egorkopytov_php-project-45)
+## Статус тестов и линтера
 
 [![Actions Status](https://github.com/egorkopytov/php-project-45/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/egorkopytov/php-project-45/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/68302a7ad376894169ca/maintainability)](https://codeclimate.com/github/egorkopytov/php-project-45/maintainability)
@@ -25,15 +20,13 @@ make install```
 
 ## Демо игр
 
-1. **Brain Games**  
-   [Смотреть демо](https://asciinema.org/a/1pOsftMBGdcBwcoFGasHIhDt2)
-
-2. ## brain-calc
-[![asciicast](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97.svg)](https://asciinema.org/a/rhBImQcqU6fPc6oREuQSmoL97)   
-
-4. **Progression** — Игра на восстановление арифметической прогрессии.  
-   [Смотреть демо](https://asciinema.org/a/D16Uo8oLCXLfc5X8EDf58Xcup)
-
-5. **Prime** — Игра на проверку чисел на простоту.  
-   [Смотреть демо](https://asciinema.org/a/M2ybikjZbWDdpB4TRD1Nt9QPK)
-
+BRAIN-EVEN:
+    https://asciinema.org/a/Jwv5bDQrJAv2TwWwXSv6IiSml
+BRAIN-CALC:
+    https://asciinema.org/a/rU6HVL9b3rtFcrfVqxzSKQwdu
+BRAIN-GCD:
+    https://asciinema.org/a/r21dlppMl6SYhtWYsMD4NUgse
+BRAIN-PRIME:
+    https://asciinema.org/a/f1kEPx0KznSS45rLUJ2G1ibbF
+BRAIN-PROGRESSION:
+    https://asciinema.org/a/ITbe8fdds2Ga4fE9IxreiWqiq
