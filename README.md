@@ -21,13 +21,10 @@ make install
 
 ## Демо игр
 
-BRAIN-EVEN:
-    https://asciinema.org/a/Jwv5bDQrJAv2TwWwXSv6IiSml
-BRAIN-CALC:
-    https://asciinema.org/a/rU6HVL9b3rtFcrfVqxzSKQwdu
-BRAIN-GCD:
-    https://asciinema.org/a/r21dlppMl6SYhtWYsMD4NUgse
-BRAIN-PRIME:
-    https://asciinema.org/a/f1kEPx0KznSS45rLUJ2G1ibbF
-BRAIN-PROGRESSION:
-    https://asciinema.org/a/ITbe8fdds2Ga4fE9IxreiWqiq
+## 🎮 Демо-игры
+
+[Brain Even](https://asciinema.org/a/Jwv5bDQrJAv2TwWwXSv6IiSml)
+[Brain Calc](https://asciinema.org/a/rU6HVL9b3rtFcrfVqxzSKQwdu)
+[Brain GCD](https://asciinema.org/a/r21dlppMl6SYhtWYsMD4NUgse)
+[Brain Prime](https://asciinema.org/a/f1kEPx0KznSS45rLUJ2G1ibbF)
+[Brain Progression](https://asciinema.org/a/ITbe8fdds2Ga4fE9IxreiWqiq)
