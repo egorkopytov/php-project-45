@@ -17,12 +17,13 @@
 
 ## Установка
 
-Для начала работы с проектом, клонируй репозиторий и установи все зависимости:
+Для начала работы с проектом, клонируйте репозиторий и установите все зависимости:
 
 ```bash
 git clone https://github.com/egorkopytov/php-project-45
 cd php-project-45
 make install
+
 $ make brain-even
 $ make brain-calc
 $ make brain-gcd
