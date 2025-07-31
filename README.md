@@ -1,7 +1,18 @@
 # Brain Games
 
 **Brain Games** — это коллекция мини-игр, направленных на развитие внимательности и математических навыков. Игры реализованы на PHP.
+## Стек технологий
 
+- PHP 8.1+
+- Composer
+- PSR-12
+- PHPUnit
+- PHP_CodeSniffer
+- Makefile
+- Git
+- GitHub
+- GitHub Actions
+- ChatGPT
 ---
 
 ## Установка
