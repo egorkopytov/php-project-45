@@ -32,8 +32,8 @@ make install
 
 ## Демонстрация игр 
 
-- [Brain Even](https://asciinema.org/a/Jwv5bDQrJAv2TwWwXSv6IiSml)
-- [Brain Calc](https://asciinema.org/a/rU6HVL9b3rtFcrfVqxzSKQwdu)
-- [Brain GCD](https://asciinema.org/a/r21dlppMl6SYhtWYsMD4NUgse)
-- [Brain Prime](https://asciinema.org/a/f1kEPx0KznSS45rLUJ2G1ibbF)
-- [Brain Progression](https://asciinema.org/a/ITbe8fdds2Ga4fE9IxreiWqiq)
+- [Проверка на чётность](https://asciinema.org/a/Jwv5bDQrJAv2TwWwXSv6IiSml)
+- [Калькулятор](https://asciinema.org/a/rU6HVL9b3rtFcrfVqxzSKQwdu)
+- [Наибольший общий делитель](https://asciinema.org/a/r21dlppMl6SYhtWYsMD4NUgse)
+- [Проверка числа на простоту](https://asciinema.org/a/f1kEPx0KznSS45rLUJ2G1ibbF)
+- [Прогрессия чисел](https://asciinema.org/a/ITbe8fdds2Ga4fE9IxreiWqiq)
