@@ -21,8 +21,6 @@ make install
 
 ## Демонстрация игр 
 
-## 🎮 Демо-игры
-
 - [Brain Even](https://asciinema.org/a/Jwv5bDQrJAv2TwWwXSv6IiSml)
 - [Brain Calc](https://asciinema.org/a/rU6HVL9b3rtFcrfVqxzSKQwdu)
 - [Brain GCD](https://asciinema.org/a/r21dlppMl6SYhtWYsMD4NUgse)
